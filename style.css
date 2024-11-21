@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.out{
+border: solid 1px;
+height: 170px;
+display: flex ;
+}
+    #box1,#box2,#box3{
+        border: solid 1px;
+        height: 170px;
+    }
+
+    #box1{
+        width: 170px;
+    }
+    #box2{
+        width: 1050px;
+        text-align: center;
+        background-color: rgb(253, 250, 249);
+    }
+    #box3{
+        width: 170px;
+    }
+    #clgname{
+        color:rgb(16, 36, 218);
+    }
+    #text1{
+        color: rgb(187, 15, 15);
+    }
+    #textscroll{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+    #navbox{
+        border: solid 1px;
+         height: 50px;
+    }
+
+    ul li{
+border: solid 1px;
+height: 50px;
+width: 222px;
+float: left;
+text-align: center;
+line-height: 50px;
+background-color: (rgb(238, 225, 225));
+border-radius: 12px;
+position: relative;
+    }
+    ul{
+        list-style:none;
+        }
+    ul li a{
+        color: rgb(0, 0, 0);
+        font: size 23px;
+        text-decoration: none;
+    }
+    ul li ul li{
+        display:none;
+    }
+ul li:hover ul li{
+    display:block;
+}
+    ul li:hover{
+        background-color: rgb(252, 82, 15);
+        text-align: center;
+    } 
+    #clg{
+        border: solid 1px;
+        height: 500px;
+        
+    }
